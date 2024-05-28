@@ -17,10 +17,11 @@
                 <asp:DataGrid runat="server" ID="DGWorkers" CssClass="table">
                 </asp:DataGrid>
 
+                <!-- CRUD buttons to execute actions in the table -->
                 <div class="d-flex flex-row gap-5">
                     <asp:Button runat="server" ID="BtnCreate" CssClass="form-control" Text="Nuevo" OnClick="BtnCreate_Click"/> 
-                    <asp:Button runat="server" ID="BtnModify" CssClass="form-control" Text="Modificar" OnClick="BtnCreate_Click"/> 
-                    <asp:Button runat="server" ID="BtnDelete" CssClass="form-control" Text="Eliminar" OnClick="BtnCreate_Click"/> 
+                    <asp:Button runat="server" ID="BtnModify" CssClass="form-control" Text="Modificar"/> 
+                    <asp:Button runat="server" ID="BtnDelete" CssClass="form-control" Text="Eliminar"/> 
                 </div>
             </div>
         </form>

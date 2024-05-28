@@ -34,7 +34,7 @@ namespace WebCRUD.Pages
 
         protected void BtnCreate_Click(object sender, EventArgs e)
         {
-            
+            Response.Redirect("~/Pages/WorkerForm.aspx?&Action=Create");
         }
     }
 }

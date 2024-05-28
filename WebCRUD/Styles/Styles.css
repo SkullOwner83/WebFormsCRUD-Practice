@@ -1,0 +1,44 @@
+﻿body {
+  font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+main section {
+  text-align: justify;
+  max-width: 1280px;
+}
+main section h1, main section h2, main section h3, main section h4, main section h5, main section h6 {
+  font-size: 2rem;
+  text-align: center;
+}
+main section article {
+  text-align: justify;
+}
+main section form label {
+  color: gray;
+}
+main section form input[type=text], main section form textarea {
+  padding: 8px 16px;
+  margin-bottom: 16px;
+}
+main section form textarea {
+  max-width: 100%;
+  padding: 16px;
+  margin-bottom: 32px;
+  resize: none;
+}
